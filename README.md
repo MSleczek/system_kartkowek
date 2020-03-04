@@ -1,3 +1,4 @@
+#Przedmiot: Indywidualny projekt programistyczny 
 <p><b> Tytuł: </b>System kartkówek </p>
 <p> <b>Technologie której planuje wykorzystać: </b></p>
 <ul>
