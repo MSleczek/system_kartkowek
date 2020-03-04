@@ -1,5 +1,5 @@
-<p> Tytuł: System kartkówek </p>
-<p> Technologie której planuje wykorzystać: </p>
+<p><b> Tytuł: </b>System kartkówek </p>
+<p> <b>Technologie której planuje wykorzystać: </b></p>
 <ul>
   <li> PHP </li>
   <li> SQL </li>
@@ -7,8 +7,8 @@
   <li> CSS </li>
   <li> JS </li>
 </ul>
-<p> Funkcjonalności: </p>
+<p> <b> Funkcjonalności: </b> </p>
 <ul>
   <li>+++</li>
 </ul>
-<p> Opis </p>
+<p> <b> Opis: </b></p>
