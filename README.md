@@ -14,6 +14,8 @@
 <p> <b> Opis w punktach: </b> </p>
 <ul>
   <li>Panel logowania dla administratora</li>
-  <li>Możliwość tworzenia i wyświetlania odpowiedzi jako administrator oraz tworzenie kluczy dostępu do testów</li>
+  <li>Możliwość tworzenia testów jako administrator</li>
+  <li>Wyświetalnie odpowiedzi uczniów</li>
+  <li>Tworzenie kodów dostępu jako administrator</li>
   <li>Panel logowania dla ucznia (będzie musiał podać indywidualny klucz dostepu oraz swoje dane personalne)
 </ul>
