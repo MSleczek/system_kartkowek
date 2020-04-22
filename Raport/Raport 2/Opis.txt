@@ -1,0 +1,6 @@
+Elementy, które zostały już zrealizowane:
+- Panel logowania dla administratora
+
+Elementy rozpoczęte:
+- Możliwość tworzenia testów jako administrator
+- Wyświetlanie odpowiedzi uczniów 
