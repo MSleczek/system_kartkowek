@@ -1,0 +1,7 @@
+Wykonano:
+Poprawiona obsługa panelu administratora (nie działa tak jak powinno aktualizowanie pytań) 
+
+Do zrobienia:
+Dorobić przycisk usuwanie pytań
+Zająć się wyświetlaniem testu po podaniu kodu dostępu 
+

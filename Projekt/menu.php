@@ -1,27 +1,50 @@
-<?php
-	include("auth.php");
-?>
-
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-	<title>Menu - Testy z fizyki</title>
-	<?php
-	include("head.php");	
-	?>
-</head>
-<body>
-	<div class="bg text-center">
-		<p>Testy z fizyki ☺</p>
-		<br/>
-		<h6><a style="text-decoration:none; color:white;" href="menu.php">menu</a></h3>
-	</div>
-	<div class="container">
-	<h2>Menu:</h2>
-	<a href="add.php">Dodaj pytanie</a>
-	<br/>
-	<button onclick="window.location.href='/exam/logout.php'" class="btn btn-primary">Wyloguj się</button>
-	</div>
-<?php
-	include("footer.php");
-?>
+	<head>
+		<title>Formularz zgłoszeniowy</title>
+		<?php include("head.php"); ?>
+		<div class="bg text-center">
+			<p>Menu</p>
+		</div>
+		<div class="container">
+			<h1 class="text-muted text-center mt-3 mb-3">Wybierz, co chcesz sprawdzić</h1>
+			<br/>
+			<div class="card-deck align-item-center justify-content-center">
+				<a href="add_question.php">
+				<div class="card" style="width:380px; height:200px;">
+					<div class="card-body">
+						<img src="img/exam.png" class="img-fluid mx-auto d-block">
+						<h2 class="card-title text-center">Dodaj pytanie</h2>
+					</div>
+				</div>
+				</a>
+				<a href="view_question.php">
+				<div class="card" style="width:380px; height:200px;">
+					<div class="card-body">
+						<img src="img/exam.png" class="img-fluid mx-auto d-block">
+						<h2 class="card-title text-center">Edytuj/usuń pytanie</h2>
+					</div>
+				</div>
+				</a>
+			</div>
+			<br/>
+			<div class="card-deck align-item-center justify-content-center">
+				<a href="">
+				<div class="card" style="width:380px; height:200px;">
+					<div class="card-body">
+						<img src="img/exam.png" class="img-fluid mx-auto d-block">
+						<h2 class="card-title text-center">Dodaj kategorię</h2>
+					</div>
+				</div>
+				</a>
+				<a href="">
+				<div class="card" style="width:380px; height:200px;">
+					<div class="card-body">
+						<img src="img/exam.png" class="img-fluid mx-auto d-block">
+						<h2 class="card-title text-center">Edytuj kategorię</h2>
+					</div>
+				</div>
+				</a>
+			</div>
+		</div>
+		<?php include("footer.php"); ?>
